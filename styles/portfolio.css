@@ -1,12 +1,12 @@
 /* common shared styles*/
 body{
-    font-size: 45px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
 .nav-title{
     color: #181818;
     font-style: normal;
-    font-weight: 800;
+    font: weight 500px; ;
 }
 .text-primary{
     color: orange;
@@ -25,6 +25,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0px 100px
 }
 nav a{
     text-decoration: none;
@@ -35,7 +36,21 @@ nav a{
 border-radius: 5px;
 padding: 15px 35p;
 font-size: 20px;
-font-weight: 700;
+font-weight: 400;
 color: #FFFFFF
 }
+
+.header{
+    background: #fff8f3;
+}
+.banner{
+    padding: 30px 30 px 30px 80px;
+    display:flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width:500px;
+    height:450px;
+}
+
 
