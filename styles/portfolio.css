@@ -110,7 +110,29 @@ main{
 .about-info{
     text-align: center;
 }
+.about
+    width: 1140px;
+    height: 550px;
+    top: 967px;
+    left: 230px;
+    border-radius: 10px;
 
+}
+.about{
+    width: 168px;
+height: 60px;
+top: 1326px;
+left: 1023px;
+padding-block:auto ;
+
+}
+#what-i-do-description{
+    padding:30px 130px;
+}
+.skill{
+    display:flex;
+    
+}
 
 
 
